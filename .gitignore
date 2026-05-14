@@ -1,0 +1,18 @@
+# PAI runtime state — do not commit
+*.log
+state/
+MEMORY/
+.env
+*.credentials.json
+
+# Bun
+node_modules/
+.bun/
+
+# Next.js build output
+.next/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
