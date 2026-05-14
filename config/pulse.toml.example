@@ -1,0 +1,20 @@
+# PAI Pulse — Configuration Template
+# Copy to ~/.claude/PAI/PULSE/PULSE.toml and fill in your values.
+
+[voice]
+enabled = true
+
+[telegram]
+enabled = false
+# bot_token = "your-telegram-bot-token"
+# allowed_users = [your-telegram-user-id]
+
+[observability]
+enabled = true
+dashboard_dir = "Observability/out"
+
+[performance]
+enabled = true
+
+[hooks]
+enabled = true
